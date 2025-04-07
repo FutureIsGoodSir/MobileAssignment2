@@ -105,7 +105,7 @@ fun MainScreen() {
                                 checked = checkStates[2 * i],
                                 onCheckedChange = { checkStates[2 * i] = it },
                             )
-                            Text(clothes[2 * i])
+                            Text(clothes[2 * i]+"202111373정일혁")
                         }
                         Row(
                             Modifier.weight(1f),
